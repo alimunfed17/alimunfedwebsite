@@ -1,0 +1,242 @@
+html {
+	font-style: italic;
+	scroll-behavior: smooth;
+}
+
+/* Navbar Section */
+.navbar {
+	margin-top: 2%;
+	margin-right: 2%;
+	display: flex;
+	justify-content: end;
+}
+
+.navbar button {
+	border: 2px solid dimgray;
+	padding-inline: 25px;
+	padding-block: 5px;
+	border-radius: 10%;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.navbar button:hover {
+	background-color: rgb(0, 240, 200);
+}
+
+/*title section h3*/
+#aboutme, #tools, #experience, #projects, #message {
+	padding: 0 0 2rem 8rem;
+}
+
+/*Header Section*/
+.header {
+	margin-top: -5%;
+	padding: 8rem 0 6rem 12rem;
+}
+
+.header h1, h3, p {
+	margin: 0px;
+	padding: 5px;
+}
+
+.header h1 {
+	font-size: 3.5rem;
+}
+
+.header a {
+	text-decoration: none;
+	color: #18272F;
+	position: relative;
+}
+
+.header a::before {
+	content: '';
+	background-color: rgb(0, 240, 200);
+	position: absolute;
+	left: 0;
+	bottom: 3px;
+	height: 1px;
+	width: 100%;
+	z-index: -1;
+	transition: all .3s ease-in-out;
+}
+
+.header a:hover::before {
+	bottom: 0;
+	height: 100%;
+}
+
+/*Contacts Section*/
+.contacts {
+	padding: 0 0 16rem 8rem;
+	font-size: 1.25rem;
+}
+
+.contacts p {
+	margin: 0px;
+}
+
+.contacts span {
+	padding: 3.5rem;
+}
+
+.contacts a {
+	text-decoration: none;
+	color: black;
+}
+
+.contacts a:hover {
+	transition: all .3s ease-in;
+	background-color: rgb(0, 240, 240);
+	text-decoration: underline;
+}
+
+/*About Me Section*/
+/*#aboutme {
+	padding: 0 0 0 12rem;
+	font-size: 1.5rem;
+	text-decoration: underline;
+}*/
+
+.aboutme {
+	padding: 0 0 6rem 8rem;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.aboutme p {
+	font-size: 1.25rem;
+}
+
+.aboutme img {
+	border: 2px solid navy;
+	width: 16vw;
+	height: 32vh;
+}
+
+/*Skills Section*/
+#skills {
+	font-size: 1.5rem;
+	text-decoration: underline;
+	padding: 0 0 6rem 12rem;
+}
+
+.skills {
+	padding: 0 0 6rem 20rem;
+	display: grid;
+	grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
+	row-gap: 3ch;
+	column-gap: 3ch;
+}
+
+.skills button {
+	padding: 1rem;
+	font-size: 1rem;
+	font-weight: bold;
+	border: none;
+	border: 1.5px solid dimgray;
+	border-radius: 4%;
+}
+
+.skills button:hover {
+	background-color: rgb(0, 240, 240);
+}
+
+/*Experience Section*/
+.experience {
+	padding: 0 0 6rem 20rem;
+}
+
+.experience a {
+	color: black;
+	text-decoration: none;
+}
+
+.experience a:hover {
+	color: blue;
+}
+
+#experience1 a {
+	text-decoration: none;
+	color: black;
+}
+
+#experience1:hover {
+	border: 1px solid black;
+	background-color: rgb(0, 240, 240);
+}
+
+#date1, #experience1 h4 {
+	display: inline-block;
+}
+
+#date1 {
+	padding: 0 0 0 2rem;
+}
+
+#experience1 ul {
+	list-style: none;
+	padding: 0 2rem ;
+}
+
+#experience1 li {
+	border: 0.5px solid dimgray;
+	padding: 0 2rem;
+	display: inline;
+	border-radius: 4%;
+}
+
+/*Projects Section*/
+.projects {
+	padding: 0 0 6rem 12rem;
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+
+/*Footer Section*/
+.form {
+	padding: 0 0 6rem 12rem;
+}
+
+.form input {
+	display: block;
+	margin: 1rem 0 1rem 0;
+	padding: 1rem;
+	width: 50%;
+}
+
+.form input::placeholder {
+	font-weight: bolder;
+	font-size: 1rem;
+}
+
+#messagebox {
+	height: 20vh;
+}
+
+.form button {
+	padding: 0.75rem 2.5rem;
+	font-weight: bold;
+	font-size: 1rem;
+	border-radius: 5%;
+	border: 1.5px solid dimgray;
+}
+
+.form button:hover {
+	background-color: blue;
+	color: white;
+}
+
+.copyright {
+	text-align: center;
+}
+
